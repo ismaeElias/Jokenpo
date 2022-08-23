@@ -14,7 +14,7 @@ export default function App() {
           <input type="text" className="border-black border"/>
           <button
             class="w-full rounded-2xl border-b-4 border-b-[#583CE1] bg-[#694afd] py-3 font-bold text-white  active:translate-y-[0.125rem] active:border-b-[#694afd]">
-              Play
+              PLAY
           </button>
         </div>
         </div>
