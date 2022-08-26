@@ -1,13 +1,16 @@
 {
   "name": "jokempo",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
+  "homepage": "https://ismaeElias.github.io/Jokenpo",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "css": "npx tailwindcss -i ./src/App.css -o ./dist/output.css --watch"
+    "css": "npx tailwindcss -i ./src/App.css -o ./dist/output.css --watch",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@headlessui/react": "^1.6.6",
