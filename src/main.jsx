@@ -1,17 +1,8 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import App from './App'
-import './App.css'
-import { Home } from './pages/home'
+import React from 'react';
+import { createRoot } from 'react-dom/client';
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <div className='w-screen h-screen bg-[#694AFD]'> 
-   <BrowserRouter >
-    <Routes>
-      <Route path="Jokenpo/" element={<App/>} />
-      <Route path="Jokenpo/home" element={<Home/>}  />
-    </Routes>
-  </BrowserRouter>
-  </div>
-)
+import App from './App';
+
+const container = document.getElementById('app');
+const root = createRoot(container);
+root.render(<App />);
