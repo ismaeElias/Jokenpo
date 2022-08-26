@@ -5,6 +5,11 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    fontFamily: {
+      'yellow': ['Yellowtail'],
+      'mont': ['Montserrat'],
+      'baby': ['Oooh Baby']
+    }
   },
   plugins: [],
 }
