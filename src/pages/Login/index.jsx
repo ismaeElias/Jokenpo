@@ -7,7 +7,7 @@ import Botao from "../../components/botao";
 
 function LoginPage() {
   const navigate = useNavigate();
-
+  
   return (
     <>
       <div className="w-screen h-screen bg-[#694AFD] flex items-center justify-center">

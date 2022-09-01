@@ -4,8 +4,7 @@ import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import "../src/styles/globals.css";
 import PrivateRoutes from "./core/utils/PrivateRoutes";
 import ScrollToTop from "./core/utils/ScrollToTop";
-
-import HomePage from "./pages/Home";
+import HomePage from "./pages/home";
 import LoginPage from "./pages/Login";
 
 function App() {
