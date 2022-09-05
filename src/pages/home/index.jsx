@@ -4,7 +4,7 @@ import { PaperAirplaneIcon } from '@heroicons/react/24/solid';
 
 function HomePage() {
   return (
-    <div className="w-screen h-screen bg-[#694AFD] flex items-center justify-center flex-col">
+    <div className="w-screen container mx-auto min-h-screen flex items-center justify-center flex-col">
       <div className="flex  items-center mb-8">
         <h1 className="text-white text-7xl font-bold font-mont">Jokenpo</h1>
         <p className="text-[#FFA200] font-bold text-7xl font-baby">.io</p>
