@@ -10,7 +10,7 @@ function LoginPage() {
   
   return (
     <>
-      <div className="w-screen h-screen bg-[#694AFD] flex items-center justify-center">
+      <div className="w-screen h-screen flex items-center justify-center">
         <div className="flex  flex-col items-center">
           <div className="flex  items-center mb-8">
             <h1 className="text-white text-7xl font-bold font-mont">Jokenpo</h1>

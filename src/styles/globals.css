@@ -1,8 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800;900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 html,
 body {
-    background-color: #694AFD;
+    @apply bg-primary font-nunito;
+}
+
+::-webkit-scrollbar {
+    @apply w-1 h-1;
+}
+
+::-webkit-scrollbar-track {
+    --bg-opacity: 1;
+    @apply bg-[#f7fafc];
+    background-color: rgba(247, 250, 252, var(--bg-opacity));
+}
+
+::-webkit-scrollbar-thumb {
+    --bg-opacity: 1;
+    @apply bg-[#edf2f7];
+    background-color: rgba(237, 242, 247, var(--bg-opacity));
+}
+
+::-webkit-scrollbar-thumb {
+    @apply rounded;
 }
