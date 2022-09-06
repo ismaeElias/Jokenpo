@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Battlefield() {
   return (
-    <div className="items-center p-6 bg-white rounded-xl shadow-lg space-y-10 col-span-2 row-span-2">
+    <div className="items-center p-6 bg-white rounded-xl shadow-lg space-y-10 lg:col-span-2 lg:row-span-2">
       <h3 className="text-center font-bold pb-3">Campo de Batalha</h3>
       <div className=" items-center space-y-2">
         <p className="text-center font-extrabold text-6xl text-primary">10s</p>

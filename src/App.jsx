@@ -16,8 +16,15 @@ function App() {
           <Route path="login" element={<LoginPage />} />
           <Route path="erro" element={<a>Erro Page</a>} />
 
+          {/* 
+          
+          /ROOM/:ID 
+
+          */}
+
           <Route element={<PrivateRoutes />}>
             <Route path="home" element={<HomePage />} />
+            <Route path="room/:id" element={<HomePage />} />
           </Route>
 
           <Route path="*" element={<Navigate to="/erro" replace />} />

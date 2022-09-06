@@ -5,7 +5,7 @@ import { PaperAirplaneIcon } from '@heroicons/react/24/solid';
 
 export default function Chat() {
   return (
-    <div className="bg-white rounded-xl row-span-2 ">
+    <div className="bg-white rounded-xl max-h-[35rem] lg:max-h-full lg:row-span-2 ">
       <div className="flex flex-row h-full w-full overflow-x-hidden ">
         <div className="flex flex-col flex-auto h-full ">
           <div className="flex flex-col flex-auto flex-shrink-0 rounded-2xl h-full">
