@@ -7,12 +7,12 @@ import Scoreboard from '@/components/scoreboard';
 
 function HomePage() {
   return (
-    <div className="px-6 md:px-8 xl:px-10 2xl:container mx-auto lg:h-screen">
-      <div className="h-[10%] pt-8 flex items-center justify-center">
-        <h1 className="text-white text-4xl font-bold font-mont">Jokenpo</h1>
-        <p className="text-[#FFA200] font-semibold  text-4xl font-baby">.io</p>
+    <div className="mx-auto px-6 md:px-8 lg:h-screen xl:px-10 2xl:container">
+      <div className="flex h-[10%] items-center justify-center pt-8">
+        <h1 className="font-mont text-4xl font-bold text-white">Jokenpo</h1>
+        <p className="font-baby text-4xl  font-semibold text-[#FFA200]">.io</p>
       </div>
-      <section className="h-[80%]  grid grid-cols-1 lg:grid-cols-4 lg:grid-rows-2 gap-4 py-8">
+      <section className="grid h-[90%] grid-cols-1 gap-4 py-8 lg:grid-cols-4 lg:grid-rows-2">
         <Scoreboard />
         <Battlefield />
         <Chat />
