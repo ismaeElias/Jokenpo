@@ -12,7 +12,7 @@ function HomePage() {
         <h1 className="font-mont text-4xl font-bold text-white">Jokenpo</h1>
         <p className="font-baby text-4xl  font-semibold text-[#FFA200]">.io</p>
       </div>
-      <section className="grid h-[90%] grid-cols-1 gap-4 py-8 lg:grid-cols-4 lg:grid-rows-2">
+      <section className="grid grid-cols-1 gap-4 py-8 lg:h-[90%] lg:grid-cols-4 lg:grid-rows-2 xl:h-[80%] 2xl:h-[75%]">
         <Scoreboard />
         <Battlefield />
         <Chat />

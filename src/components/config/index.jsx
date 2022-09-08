@@ -2,18 +2,18 @@ import React from 'react';
 
 export default function RoomConfig() {
   return (
-    <div className="justify-between flex-nowrap flex-grow p-6 bg-white rounded-xl shadow-lg space-y-4">
-      <h3 className="text-center font-bold pb-3">Configurações da sala</h3>
-      <div className="flex justify-between flex-row space-x-4 items-center">
-        <p className="text-base font-medium pr-5">Modo de jogo:</p>
+    <div className="flex-grow flex-nowrap justify-between space-y-4 rounded-xl bg-white p-6 shadow-lg">
+      <h3 className="pb-3 text-center font-bold">Configurações da sala</h3>
+      <div className="flex flex-row items-center justify-between space-x-4">
+        <p className="pr-5 text-base font-medium">Modo de jogo:</p>
         <p className="text-base text-primary">Melhor de 3</p>
       </div>
-      <div className="flex justify-between flex-row space-x-4 items-center">
-        <p className="text-base font-medium pr-5">Link:</p>
+      <div className="flex flex-row items-center justify-between space-x-4">
+        <p className="pr-5 text-base font-medium">Link:</p>
         <p className="text-base text-primary">jokenpo.io/khjgkjsa2</p>
       </div>
-      <div className="flex justify-between flex-row space-x-4 items-center">
-        <p className="text-base font-medium pr-5">Proprietario:</p>
+      <div className="flex flex-row items-center justify-between space-x-4">
+        <p className="pr-5 text-base font-medium">Proprietario:</p>
         <p className="text-base text-primary">Fernando</p>
       </div>
     </div>
