@@ -14,13 +14,9 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-    @apply bg-gray-200;
+    @apply bg-black/10;
 }
 
 ::-webkit-scrollbar-thumb {
-    @apply bg-gray-300;
-}
-
-::-webkit-scrollbar-thumb {
-    @apply rounded;
+    @apply bg-black/20;
 }
